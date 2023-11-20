@@ -24,7 +24,7 @@ html {
     background: url(public/icons/bean_can.png) no-repeat 20% center, url(public/icons/bean_can.png) no-repeat 80% center;
     background-size: 48px 48px;
   }
-  
+
   h2 {
     font-size: 2rem;
     color: yellow;
@@ -38,17 +38,17 @@ html {
     padding-top: 0.3rem;
 
     &.vegetables {
-      background: black url(icons/vegetable.png) no-repeat 0% center;
+      background: black url(public/icons/vegetable.png) no-repeat 0% center;
       background-size: 24px 24px;
     }
     
     &.meat {
-      background: black url(icons/meat.png) no-repeat 2px 2px;
+      background: black url(public/icons/meat.png) no-repeat 2px 2px;
       background-size: 24px 24px;
     }
     
     &.soup {
-      background: black url(icons/soup.png) no-repeat 2px 2px;
+      background: black url(public/icons/soup.png) no-repeat 2px 2px;
       background-size: 24px 24px;
     }
   }
