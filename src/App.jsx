@@ -76,7 +76,10 @@ export default function App() {
         <main>
           {filteredProduct.map(product => (
             <section key={product.name} className={product.type}>
-              <h2 className={product.type}>{product.name}</h2>
+              <h2 className={product.type}>
+                {product.name[0].toUpperCase()}
+                {product.name.slice(1)}
+                </h2>
               <p>${product.price}</p>
               <img src={product.image} alt={product.name} />
             </section>
